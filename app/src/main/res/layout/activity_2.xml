@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:background="@drawable/background2"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:text="Total Question" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Total Question"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/ansA"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="#FFFFFF"
+        android:text="ans A"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/ansB"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/ansA"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:text="ans B"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/ansC"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@+id/ansB"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="#FFFFFF"
+        android:text="ans C"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/ansD"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@+id/ansC"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="#FFFFFF"
+        android:text="ans D"
+        android:textColor="@color/black" />
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ansD"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#F67280"
+        android:text="NEXT" />
+
+</RelativeLayout>
